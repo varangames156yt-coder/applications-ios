@@ -8,7 +8,7 @@ workflows:
         script: |
           xcodebuild build \
             -project "Application-Ios.xcodeproj" \
-            -scheme "Application-Ios" \
+            -target "Application-Ios" \
             -sdk iphonesimulator \
             -configuration Debug          
     artifacts:
